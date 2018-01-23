@@ -1,0 +1,10 @@
+{"compile":[
+["/Users/k40059/Dev-nim/nimcache/hello.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.17.2/nim/lib -o /Users/k40059/Dev-nim/nimcache/hello.o /Users/k40059/Dev-nim/nimcache/hello.c"],
+["/Users/k40059/Dev-nim/nimcache/stdlib_system.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.17.2/nim/lib -o /Users/k40059/Dev-nim/nimcache/stdlib_system.o /Users/k40059/Dev-nim/nimcache/stdlib_system.c"]
+],
+"link":[
+"/Users/k40059/Dev-nim/nimcache/hello.o",
+"/Users/k40059/Dev-nim/nimcache/stdlib_system.o"
+],
+"linkcmd": "clang   -o /Users/k40059/Dev-nim/hello  /Users/k40059/Dev-nim/nimcache/hello.o /Users/k40059/Dev-nim/nimcache/stdlib_system.o    -ldl"
+}
